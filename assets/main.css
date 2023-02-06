@@ -7,10 +7,10 @@
  *   'Roboto-Slab',serif; Font for the body text 
  *   #fafafa; Background color of the site
  *   #505050; Foreground (text) color of the site
- *   #52739e; Navy, "Template" in the logo, current page in navigation, special titles in the Program
- *   #b2132e; Reddish, "Conference" in the logo, hover color for links
- *   #813c54; Heading color, titles in the Program
- *   #b8860b; Dark Goldenrod, color for links
+ *   #43A5BE; Teal, "Template" in the logo, current page in navigation, special titles in the Program
+ *   #F07857; Orange, "Conference" in the logo, hover color for links
+ *   #53BDAS; Sea green, titles in the Program
+ *   #F5C26B; Tan, color for links
  */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab');
@@ -38,7 +38,7 @@ body{
 }
 
 a{color: #b8860b; text-decoration:none;}
-a.current{color: #52739e;}
+a.current{color: #43A5BE;}
 a.current:hover{color: #e82945;}
 a:hover{color: #b2132e;}
 a:active{color: #e82945;}
@@ -83,7 +83,7 @@ th,td{
 
 /* Conference Title Logo */
 .title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0;} 
-.title2{color: #52739e; text-shadow: 1px 1px 3px #c0c0c0;}
+.title2{color: #43A5BE; text-shadow: 1px 1px 3px #c0c0c0;}
 .year{color: #505050; font-size:0.67em; font-weight: lighter;}
 
 /* Navigation Links (Home, Registration, etc) */
@@ -96,10 +96,10 @@ td.sponsor{white-space:nowrap; width:33%; text-align:center; vertical-align:midd
 td.sponsor img{width: 100%}
 
 /* The Table on the Program Page */
-td.room{padding: 4px 12px 4px 4px; width: 90%; vertical-align:bottom; font-size:1.67em; color: #52739e; height:32px;}
+td.room{padding: 4px 12px 4px 4px; width: 90%; vertical-align:bottom; font-size:1.67em; color: #43A5BE; height:32px;}
 td.date{white-space:nowrap; width:130px; text-align:right; vertical-align:top; padding:4px 16px 0px 0px;}
 td.title{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.5em; color: #813c54; height:32px; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0; }
-td.title-special{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.67em; color: #52739e; height:32px; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;}
+td.title-special{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.67em; color: #43A5BE; height:32px; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;}
 td.speaker{padding: 4px 12px 4px 4px; font-style: italic; font-size:1em; max-height:999999px}
 td.abstract{padding: 4px 12px 12px 4px; font-size:1em; max-height:999999px}
 td.abstract img{display: block; margin: 4px auto 8px auto}
