@@ -7,9 +7,9 @@
  *   'Roboto-Slab',serif; Font for the body text 
  *   #fafafa; Background color of the site
  *   #505050; Foreground (text) color of the site
- *   #43A5BE; Teal, "Template" in the logo, current page in navigation, special titles in the Program
- *   #F07857; Orange, "Conference" in the logo, hover color for links
- *   #53BDAS; Sea green, titles in the Program
+ *   #4FB06D; kelly green, "Algebra" in the banner, current page in navigation, special titles in the Program
+ *   #F07857; Orange, "Asymptotic" in the banner, hover color for links
+ *   #4FB06D; kelly green, titles in the Program
  *   #F5C26B; Tan, color for links
  */
 
@@ -38,17 +38,17 @@ body{
 }
 
 a{color: #F5C26B; text-decoration:none;}
-a.current{color: #43A5BE;}
+a.current{color: #4FB06D;}
 a.current:hover{color: #e82945;}
 a:hover{color: #F07857;}
 a:active{color: #e82945;}
-h1,h2,h3,h4{clear:left; color: #53BDAS; margin:1.5em 0em 1em 0em; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;}
+h1,h2,h3,h4{clear:left; color: #4FB06D; margin:1.5em 0em 1em 0em; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;}
 h1{font-size:2.67em;}
 h2{font-size:2.00em;}
 h3{font-size:1.67em;}
 h4{font-size:1.33em;}
 p{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;}
-li a, p a {text-decoration:underline; text-decoration-color:#43A5BE;}
+li a, p a {text-decoration:underline; text-decoration-color:#4FB06D;}
 ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
 ul li{list-style:none; margin:0px auto 0px auto; padding:0px; text-align:left;}
 i,em{font-style:italic;}
@@ -83,7 +83,7 @@ th,td{
 
 /* Conference Title Logo */
 .title1{color: #F07857; text-shadow: 1px 1px 3px #c0c0c0;} 
-.title2{color: #43A5BE; text-shadow: 1px 1px 3px #c0c0c0;}
+.title2{color: #4FB06D; text-shadow: 1px 1px 3px #c0c0c0;}
 .year{color: #505050; font-size:0.67em; font-weight: lighter;}
 
 /* Navigation Links (Home, Registration, etc) */
@@ -96,10 +96,10 @@ td.sponsor{white-space:nowrap; width:33%; text-align:center; vertical-align:midd
 td.sponsor img{width: 100%}
 
 /* The Table on the Program Page */
-td.room{padding: 4px 12px 4px 4px; width: 90%; vertical-align:bottom; font-size:1.67em; color: #43A5BE; height:32px;}
+td.room{padding: 4px 12px 4px 4px; width: 90%; vertical-align:bottom; font-size:1.67em; color: #4FB06D; height:32px;}
 td.date{white-space:nowrap; width:130px; text-align:right; vertical-align:top; padding:4px 16px 0px 0px;}
-td.title{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.5em; color: #53BDAS; height:32px; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0; }
-td.title-special{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.67em; color: #43A5BE; height:32px; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;}
+td.title{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.5em; color: #4FB06D; height:32px; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0; }
+td.title-special{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.67em; color: #4FB06D; height:32px; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;}
 td.speaker{padding: 4px 12px 4px 4px; font-style: italic; font-size:1em; max-height:999999px}
 td.abstract{padding: 4px 12px 12px 4px; font-size:1em; max-height:999999px}
 td.abstract img{display: block; margin: 4px auto 8px auto}
