@@ -9,6 +9,7 @@
  *   #505050; Foreground (text) color of the site
  *   #4FB06D; kelly green, "Algebra" in the banner, current page in navigation, special titles in the Program
  *   #F07857; Orange, "Asymptotic" in the banner, hover color for links
+ *   #239B56; green, "2023"
  *   #4FB06D; kelly green, titles in the Program
  *   #F5C26B; Tan, color for links
  */
@@ -84,7 +85,7 @@ th,td{
 /* Conference Title Logo */
 .title1{color: #F07857; text-shadow: 1px 1px 3px #c0c0c0;} 
 .title2{color: #4FB06D; text-shadow: 1px 1px 3px #c0c0c0;}
-.year{color: #505050; font-size:0.67em; font-weight: lighter;}
+.year{color: #239B56; font-size:0.67em; font-weight: lighter;}
 
 /* Navigation Links (Home, Registration, etc) */
 table.navigation{width:800px;}
