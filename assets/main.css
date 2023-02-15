@@ -11,7 +11,7 @@
  *   #F07857; Orange, "Asymptotic" in the banner, hover color for links
  *   #239B56; green, "2023"
  *   #4FB06D; kelly green, titles in the Program
- *   #D9B382; Beige, color for links
+ *   #DBAD72; Beige, color for links
  */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab');
@@ -38,7 +38,7 @@ body{
     width: 1000px;
 }
 
-a{color: #D9B382; text-decoration:none;}
+a{color: #DBAD72; text-decoration:none;}
 a.current{color: #4FB06D;}
 a.current:hover{color: #4FB06D;}
 a:hover{color: #F07857;}
